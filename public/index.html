@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VOLLEYBALL LIVE</title>
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header>
+  <a class="logo" href="/">🏐 VOLLEYBALL <span>LIVE</span></a>
+  <nav>
+    <a href="/">Главная</a>
+    <a href="/matches.html">Матчи</a>
+    <a href="/live.html">LIVE</a>
+    <a href="/players.html">Игроки</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div>
+      <span class="eyebrow">REAL-TIME VOLLEYBALL</span>
+      <h1>Волейбол.<br><b>Здесь и сейчас.</b></h1>
+      <p>Реальные матчи, результаты, игроки и LIVE-счёт в одном месте.</p>
+      <div class="actions">
+        <a class="button" href="/matches.html">Смотреть матчи</a>
+        <a class="button ghost" href="/live.html">LIVE</a>
+      </div>
+    </div>
+    <div class="ball">🏐</div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">СЕГОДНЯ</span>
+        <h2>Матчи</h2>
+      </div>
+      <a href="/matches.html">Все матчи →</a>
+    </div>
+    <div id="todayMatches" class="match-list"><div class="loading">Загрузка...</div></div>
+  </section>
+
+  <section class="info-row">
+    <div class="panel">
+      <span class="eyebrow">LIVE</span>
+      <h2>Счёт обновляется автоматически</h2>
+      <p>Сайт проверяет текущие матчи через API и показывает счёт по сетам и очки текущего сета.</p>
+    </div>
+    <div class="panel">
+      <span class="eyebrow">STREAM</span>
+      <h2>Официальные трансляции</h2>
+      <p>Если для матча доступна трансляция, сайт покажет ссылку на неё. Права на трансляцию остаются у её владельца.</p>
+    </div>
+  </section>
+</main>
+
+<footer>© 2026 Volleyball Live</footer>
+<script src="/js/app.js"></script>
+</body>
+</html>

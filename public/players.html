@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Игроки — Volleyball Live</title>
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header>
+  <a class="logo" href="/">🏐 VOLLEYBALL <span>LIVE</span></a>
+  <nav>
+    <a href="/">Главная</a>
+    <a href="/matches.html">Матчи</a>
+    <a href="/live.html">LIVE</a>
+    <a class="active" href="/players.html">Игроки</a>
+  </nav>
+</header>
+<main>
+  <section class="page-title">
+    <span class="eyebrow">РЕАЛЬНЫЕ ИГРОКИ</span>
+    <h1>Игроки</h1>
+    <p>Ниже — реальные профессиональные волейболисты. Через поиск можно получать профили из API.</p>
+  </section>
+
+  <form id="playerSearch" class="search">
+    <input id="query" placeholder="Например: Giannelli">
+    <button class="button" type="submit">Найти</button>
+  </form>
+
+  <div id="players" class="player-grid"></div>
+</main>
+<footer>© 2026 Volleyball Live</footer>
+<script src="/js/players.js"></script>
+</body>
+</html>
